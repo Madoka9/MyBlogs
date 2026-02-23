@@ -10,7 +10,25 @@
   <rights>All rights reserved 2026, OnricYF</rights>
   <subtitle>xxx</subtitle>
   <title>YF's Blogs</title>
-  <updated>2026-02-22T15:30:36.268Z</updated>
+  <updated>2026-02-23T05:04:39.572Z</updated>
+  <entry>
+    <author>
+      <name>OnricYF</name>
+    </author>
+    <category term="图形学" scheme="http://example.com/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
+    <category term="图形学" scheme="http://example.com/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
+    <content>
+      <![CDATA[<h2 id="ThreeJs-学习文档"><a href="#ThreeJs-学习文档" class="headerlink" title="ThreeJs 学习文档"></a>ThreeJs 学习文档</h2><p><a href="https://threejs.org/manual/#zh/creating-a-scene">创建场景 - three.js manual</a></p><h3 id="接口查询"><a href="#接口查询" class="headerlink" title="接口查询"></a>接口查询</h3><p><a href="https://threejs.org/docs/">https://threejs.org/docs/</a></p>]]>
+    </content>
+    <id>http://example.com/2026/02/23/ThreejsLearning/</id>
+    <link href="http://example.com/2026/02/23/ThreejsLearning/"/>
+    <published>2026-02-23T03:47:06.100Z</published>
+    <summary>
+      <![CDATA[<h2 id="ThreeJs-学习文档"><a href="#ThreeJs-学习文档" class="headerlink" title="ThreeJs 学习文档"></a>ThreeJs 学习文档</h2><p><a href="https://threejs.org/m]]>
+    </summary>
+    <title>ThreejsLearning</title>
+    <updated>2026-02-23T05:04:39.572Z</updated>
+  </entry>
   <entry>
     <author>
       <name>OnricYF</name>
@@ -27,7 +45,7 @@
       <![CDATA[<h2 id="Hexo-基本用法"><a href="#Hexo-基本用法" class="headerlink" title="Hexo 基本用法"></a>Hexo 基本用法</h2><h3 id="添加分类、tag"><a href="#添加分类、tag" class="]]>
     </summary>
     <title>Example Tiltle</title>
-    <updated>2026-02-22T15:30:36.268Z</updated>
+    <updated>2026-02-23T03:48:45.163Z</updated>
   </entry>
   <entry>
     <author>
@@ -62,6 +80,6 @@
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-02-22T11:58:51.978Z</updated>
+    <updated>2026-02-23T03:48:36.192Z</updated>
   </entry>
 </feed>

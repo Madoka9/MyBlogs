@@ -121,7 +121,6 @@
     <a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation">
-      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed" aria-label="RSS Feed" target="_blank"></a>
   </nav>
     <nav id="i18n-nav" aria-label="Language selection">
       <div class="custom-dropdown">
@@ -199,11 +198,11 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
@@ -282,6 +281,14 @@
       <a href="javascript:void(0)" class="toolbar-link toolbar-calculator-toggle" title="计算器">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
         <span>计算器</span>
+      </a>
+      <a href="https://www.shadertoy.com/new" class="toolbar-link" title="Shaderlab" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        <span>Shaderlab</span>
+      </a>
+      <a href="/threejs-demo/" class="toolbar-link" title="Three.js" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" x2="12" y1="22.08" y2="12"></line></svg>
+        <span>Three.js</span>
       </a>
       <div class="toolbar-calculator" id="toolbar-calculator" style="display: none;">
         <div class="calculator-display">
@@ -367,7 +374,7 @@ function calcBackspace() {
     <div class="widget-wrap" data-aos="fade-up">
       <h3 class="widget-title">Categories</h3>
       <div class="widget">
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/en/categories/%E6%9D%82%E8%AE%B0/" title="杂记">杂记</a></li></ul>
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/en/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/" title=" 图形学"> 图形学</a></li><li class="category-list-item"><a class="category-list-link" href="/en/categories/%E6%9D%82%E8%AE%B0/" title="杂记">杂记</a></li></ul>
       </div>
     </div>
   </div>
@@ -385,7 +392,7 @@ function calcBackspace() {
     <div class="widget-wrap" data-aos="fade-up">
       <h3 class="widget-title">Tag Cloud</h3>
       <div class="widget tagcloud">
-        <a href="/en/tags/Others/" style="font-size: 10px;">Others</a> <a href="/en/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/" style="font-size: 10px;">图形学</a>
+        <a href="/en/tags/Others/" style="font-size: 10px;">Others</a> <a href="/en/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/" style="font-size: 20px;">图形学</a>
       </div>
     </div>
   </div>
@@ -404,6 +411,9 @@ function calcBackspace() {
       <h3 class="widget-title">Recent Posts</h3>
       <div class="widget">
         <ul>
+            <li>
+              <a href="/en/2026/02/23/ThreejsLearning/" title="ThreejsLearning">ThreejsLearning</a>
+            </li>
             <li>
               <a href="/en/2026/02/22/Examples/" title="Example Tiltle">Example Tiltle</a>
             </li>
@@ -435,12 +445,24 @@ function calcBackspace() {
     <div class="archives-category-list-item" data-aos="zoom-in">
       <a class="archives-category-list-link" href="/en/categories/%E6%9D%82%E8%AE%B0/">杂记</a>
     </div>
+    <div class="archives-category-list-item" data-aos="zoom-in">
+      <a class="archives-category-list-link" href="/en/categories/%E5%9B%BE%E5%BD%A2%E5%AD%A6/"> 图形学</a>
+    </div>
 </div>
         <section class="archives-wrap" data-aos="fade-up">
           <div class="archive-year-wrap">
             <a href="/en/archives/2026" class="archive-year">2026</a>
           </div>
           <ul>
+            <li class="archive-article">
+  <div class="archive-article-date">
+    <span>
+      <time class="dt-published" datetime="2026-02-23T03:47:06.100Z" itemprop="datePublished">02-23</time>
+    </span>
+  </div>
+    <a class="archive-article-title" href="/en/2026/02/23/ThreejsLearning/">ThreejsLearning</a>
+</li>
+
             <li class="archive-article">
   <div class="archive-article-date">
     <span>
@@ -476,7 +498,7 @@ function calcBackspace() {
         2.2k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:09
+        00:10
       </div>
       <div>
         <span class="icon-eye"></span>
@@ -504,11 +526,11 @@ function calcBackspace() {
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">3</div>
+    <div class="sidebar-state-number">4</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
-    <div class="sidebar-state-number">1</div>
+    <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-tag">
     <div>Tag</div>
