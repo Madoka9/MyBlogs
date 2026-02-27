@@ -25,7 +25,7 @@
 <meta property="og:description" content="Hexo 基本用法添加分类、tag123hexo new page tags &#x2F;&#x2F;添加taghexo new page categories &#x2F;&#x2F;添加分类   表头12345678---title: Example Tiltlecategories: [杂记]tags: [Others]cover: ## &#x2F;images&#x2F;xxx.jpg 封面图片替换##comments: falsedate: 2">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-02-22T14:22:10.000Z">
-<meta property="article:modified_time" content="2026-02-23T03:48:45.163Z">
+<meta property="article:modified_time" content="2026-02-27T12:13:17.362Z">
 <meta property="article:author" content="OnricYF">
 <meta property="article:tag" content="Others">
 <meta name="twitter:card" content="summary">
@@ -41,6 +41,7 @@
     
 <link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css" integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous">
 
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css" integrity="sha384-tLMkTWh2pfXNWGFlUS0w1TFtRG5xZ9lPWFOooj+vDDLIL+xBGQU/voDBY5XE2lVh" crossorigin="anonymous">
 <meta name="generator" content="Hexo 8.1.1"></head>
 
   <body>
@@ -119,6 +120,12 @@
             </div>
           <span class="main-nav-link">Friend</span>
         </span>
+        <a class="main-nav-link-wrap" href="/en/portfolio">
+            <div class="main-nav-icon icon rotate">
+                &#xe62b;
+            </div>
+          <span class="main-nav-link">Portfolio</span>
+        </span>
     <a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation">
@@ -192,7 +199,7 @@
     <div class="sidebar-wrap" data-aos="fade-up">
           <div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
 <div class="sidebar-toc-wrapper toc-div-class" >
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">Hexo 基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E3%80%81tag"><span class="toc-number">1.1.</span> <span class="toc-text">添加分类、tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E5%A4%B4"><span class="toc-number">1.2.</span> <span class="toc-text">表头</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">Hexo相关指令</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">Hexo 基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E3%80%81tag"><span class="toc-number">1.1.</span> <span class="toc-text">添加分类、tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E5%A4%B4"><span class="toc-number">1.2.</span> <span class="toc-text">表头</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">Hexo相关指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80"><span class="toc-number">3.</span> <span class="toc-text">主题地址</span></a></li></ol>
 </div>
 </div>
           <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
@@ -203,7 +210,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -257,6 +264,13 @@
           </div>
         <div class="sidebar-menu-link">Friend</div>
       </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/en/portfolio" aria-label="Portfolio"></a>
+          <div class="sidebar-menu-icon icon rotate">
+              &#xe62b;
+          </div>
+        <div class="sidebar-menu-link">Portfolio</div>
+      </div>
 </div>
 </div>
           <div class="sidebar-btn-wrapper" style="position:static">
@@ -267,7 +281,7 @@
   </div>
       <meting-js
         theme="var(--color-link)"
-        id="2265921590"
+        id="385907592"
         server="netease"
         type="playlist"
         
@@ -293,7 +307,7 @@
       <div class="article-date">
   <span class="article-date-link icon-calendar" data-aos="zoom-in">
     <time datetime="2026-02-22T14:22:10.000Z" itemprop="datePublished">2026-02-22</time>
-    <time style="display: none;" id="post-update-time">2026-02-23</time>
+    <time style="display: none;" id="post-update-time">2026-02-27</time>
   </span>
 </div>
 
@@ -307,6 +321,9 @@
 <h3 id="表头"><a href="#表头" class="headerlink" title="表头"></a>表头</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Example Tiltle</span><br><span class="line">categories: [杂记]</span><br><span class="line">tags: [Others]</span><br><span class="line">cover: ## /images/xxx.jpg 封面图片替换##</span><br><span class="line">comments: false</span><br><span class="line">date: 2026-02-22 22:22:10</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <h2 id="Hexo相关指令"><a href="#Hexo相关指令" class="headerlink" title="Hexo相关指令"></a>Hexo相关指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">相关命令`npm install -g hexo-cli`（用 npm 全局安装 Hexo 的命令行工具 hexo-cli，装完就能在任意目录用 `hexo` 命令）</span><br><span class="line"></span><br><span class="line">`hexo init`（在当前目录初始化一个 Hexo 站点：生成基础目录结构和配置文件）</span><br><span class="line">`hexo clean`（清理缓存与已生成文件：通常会删掉 `public/`、`db.json` 之类，解决“生成内容不更新/残留文件”）</span><br><span class="line">`hexo g`（`hexo generate` 的缩写：把 Markdown 等内容生成静态网页到 `public/`）</span><br><span class="line">`hexo s`（`hexo server` 的缩写：启动本地预览服务器，方便在浏览器里看效果）</span><br><span class="line">`hexo d`（`hexo deploy` 的缩写：把生成好的 `public/` 部署/推送到你配置的远端（比如 GitHub Pages））</span><br></pre></td></tr></table></figure>
+
+<h2 id="主题地址"><a href="#主题地址" class="headerlink" title="主题地址"></a>主题地址</h2><p><a target="_blank" rel="noopener" href="https://github.com/D-Sketon/hexo-theme-reimu">D-Sketon&#x2F;hexo-theme-reimu: 一款博丽灵梦风格的Hexo主题 | A Hakurei Reimu style Hexo theme. 💘Touhou💘</a></p>
+
     </div>
     <footer class="article-footer">
         <a class="article-category-link" href="/en/categories/%E6%9D%82%E8%AE%B0/" title="杂记" data-aos="zoom-in">杂记</a>
@@ -325,11 +342,11 @@
         </h3>
       </div>
     <div class="article-nav-link-wrap right">
-          <img data-src="/images/banner.webp" data-sizes="auto" alt="基础坐标空间" class="lazyload">
-      <a href="/en/2026/02/22/%E5%87%A0%E7%A7%8D%E5%9F%BA%E7%A1%80%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4/" aria-label="Next: 基础坐标空间"  title="Next: 基础坐标空间"></a>
+          <img data-src="/images/banner.webp" data-sizes="auto" alt="日语杂记" class="lazyload">
+      <a href="/en/2026/02/22/%E6%97%A5%E8%AF%AD%E6%9D%82%E8%AE%B0/" aria-label="Next: 日语杂记"  title="Next: 日语杂记"></a>
       <div class="article-nav-caption">Next</div>
       <h3 class="article-nav-title">
-          基础坐标空间
+          日语杂记
       </h3>
     </div>
   </nav>
@@ -356,7 +373,7 @@
       </div>
       <div>
         <span class="icon-brush"></span>
-        2.9k
+        3k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
         00:15
@@ -381,7 +398,7 @@
   <div class="sidebar-wrap">
         <div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
 <div class="sidebar-toc-wrapper toc-div-class" >
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">Hexo 基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E3%80%81tag"><span class="toc-number">1.1.</span> <span class="toc-text">添加分类、tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E5%A4%B4"><span class="toc-number">1.2.</span> <span class="toc-text">表头</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">Hexo相关指令</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">Hexo 基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E3%80%81tag"><span class="toc-number">1.1.</span> <span class="toc-text">添加分类、tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E5%A4%B4"><span class="toc-number">1.2.</span> <span class="toc-text">表头</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">Hexo相关指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80"><span class="toc-number">3.</span> <span class="toc-text">主题地址</span></a></li></ol>
 </div>
 </div>
         <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
@@ -392,7 +409,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -445,6 +462,13 @@
               &#xe62b;
           </div>
         <div class="sidebar-menu-link">Friend</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/en/portfolio" aria-label="Portfolio"></a>
+          <div class="sidebar-menu-icon icon rotate">
+              &#xe62b;
+          </div>
+        <div class="sidebar-menu-link">Portfolio</div>
       </div>
 </div>
 </div>
@@ -527,7 +551,7 @@
           description: "",
           stripContent: "Hexo 基本用法添加分类、tag123hexo new page tags //添加taghexo new page categories //添加分类   表头12345678---title: Example Tiltlecategories: [杂记]tags: [Others]cover: ## /images/xxx.jpg 封面图片替换##comments: falsedate: 2026-02-22 22:22:10---  Hexo相关指令1234567相关命令`npm ins",
           date: "Sun Feb 22 2026 22:22:10 GMT+0800",
-          updated: "Mon Feb 23 2026 11:48:45 GMT+0800",
+          updated: "Fri Feb 27 2026 20:13:17 GMT+0800",
           cover: "/images/banner.webp",
         };
       </script>
@@ -588,6 +612,29 @@
   }
 </script>
 
+
+    <script>
+      var setupAPlayer = () => {
+        if (!true || !window.matchMedia('(max-width: 768px)').matches) {
+          if (window.matchMedia('(max-width: 959px)').matches) {
+            const meting = _$('meting-js');
+            if (meting) {
+              meting.setAttribute('fixed', 'true');
+              const aside = meting.parentNode?.parentNode;
+              if (aside?.tagName === 'ASIDE') {
+                meting.parentNode.removeChild(meting);
+                document.body.appendChild(meting);
+              }
+            }
+          }
+        }
+      };
+    </script>
+  
+<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js" integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr+h5UfruuRL&#x2F;aORyw+5+HZoU6e" crossorigin="anonymous" defer onload="setupAPlayer()"></script>
+
+    
+<script src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js" integrity="sha384-ASVlpKF80A22OXTK3tfEjZm1EL6uFMKIC4p8+0maanw1S&#x2F;IyB+Y4JG+ZDU7GpKE8" crossorigin="anonymous" defer></script>
 
 
 

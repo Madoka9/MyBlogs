@@ -40,6 +40,7 @@
     
 <link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css" integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous">
 
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css" integrity="sha384-tLMkTWh2pfXNWGFlUS0w1TFtRG5xZ9lPWFOooj+vDDLIL+xBGQU/voDBY5XE2lVh" crossorigin="anonymous">
 <meta name="generator" content="Hexo 8.1.1"></head>
 
   <body>
@@ -117,6 +118,12 @@
                 &#xe62b;
             </div>
           <span class="main-nav-link">Friend</span>
+        </span>
+        <a class="main-nav-link-wrap" href="/en/portfolio">
+            <div class="main-nav-icon icon rotate">
+                &#xe62b;
+            </div>
+          <span class="main-nav-link">Portfolio</span>
         </span>
     <a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
@@ -202,7 +209,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -256,6 +263,13 @@
           </div>
         <div class="sidebar-menu-link">Friend</div>
       </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/en/portfolio" aria-label="Portfolio"></a>
+          <div class="sidebar-menu-icon icon rotate">
+              &#xe62b;
+          </div>
+        <div class="sidebar-menu-link">Portfolio</div>
+      </div>
 </div>
 </div>
           <div class="sidebar-btn-wrapper" style="position:static">
@@ -266,7 +280,7 @@
   </div>
       <meting-js
         theme="var(--color-link)"
-        id="2265921590"
+        id="385907592"
         server="netease"
         type="playlist"
         
@@ -323,11 +337,11 @@
   </div>
     <nav id="article-nav" aria-label="Article navigation" data-aos="fade-up">
       <div class="article-nav-link-wrap left">
-            <img data-src="/images/banner.webp" data-sizes="auto" alt="日语杂记" class="lazyload">
-        <a href="/en/2026/02/22/%E6%97%A5%E8%AF%AD%E6%9D%82%E8%AE%B0/" aria-label="Prev: 日语杂记" title="Prev: 日语杂记"></a>
+            <img data-src="/images/banner.webp" data-sizes="auto" alt="基础坐标空间" class="lazyload">
+        <a href="/en/2026/02/22/%E5%87%A0%E7%A7%8D%E5%9F%BA%E7%A1%80%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4/" aria-label="Prev: 基础坐标空间" title="Prev: 基础坐标空间"></a>
         <div class="article-nav-caption">Prev</div>
         <h3 class="article-nav-title">
-            日语杂记
+            基础坐标空间
         </h3>
       </div>
   </nav>
@@ -354,7 +368,7 @@
       </div>
       <div>
         <span class="icon-brush"></span>
-        2.9k
+        3k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
         00:15
@@ -390,7 +404,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>Post</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">6</div>
   </div>
   <div class="sidebar-state-category">
     <div>Category</div>
@@ -443,6 +457,13 @@
               &#xe62b;
           </div>
         <div class="sidebar-menu-link">Friend</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/en/portfolio" aria-label="Portfolio"></a>
+          <div class="sidebar-menu-icon icon rotate">
+              &#xe62b;
+          </div>
+        <div class="sidebar-menu-link">Portfolio</div>
       </div>
 </div>
 </div>
@@ -589,6 +610,29 @@
   }
 </script>
 
+
+    <script>
+      var setupAPlayer = () => {
+        if (!true || !window.matchMedia('(max-width: 768px)').matches) {
+          if (window.matchMedia('(max-width: 959px)').matches) {
+            const meting = _$('meting-js');
+            if (meting) {
+              meting.setAttribute('fixed', 'true');
+              const aside = meting.parentNode?.parentNode;
+              if (aside?.tagName === 'ASIDE') {
+                meting.parentNode.removeChild(meting);
+                document.body.appendChild(meting);
+              }
+            }
+          }
+        }
+      };
+    </script>
+  
+<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js" integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr+h5UfruuRL&#x2F;aORyw+5+HZoU6e" crossorigin="anonymous" defer onload="setupAPlayer()"></script>
+
+    
+<script src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js" integrity="sha384-ASVlpKF80A22OXTK3tfEjZm1EL6uFMKIC4p8+0maanw1S&#x2F;IyB+Y4JG+ZDU7GpKE8" crossorigin="anonymous" defer></script>
 
 
 
